@@ -84,7 +84,7 @@
 						-->
 						<ul class="actions">
 							<li>
-								<a href="#" class="button special">App (Recommended)</a>
+								<a id="StoreRedirect" class="button special">Mobile App</a>
 							</li>
 							<li>
 								<a href="#" class="button">Website</a>
@@ -266,7 +266,18 @@
 	<script src="assets/js/util.js"></script>
 	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 	<script src="assets/js/main.js"></script>
-
+	<script>
+		$('#StoreRedirect').click(function () {
+			if (navigator.userAgent.toLowerCase().indexOf("android") > -1) {
+				window.location.href = 'http://play.google.com/store/apps/details?id=com.truecaller&hl=en';
+			}
+			else if (navigator.userAgent.toLowerCase().indexOf("iphone") > -1) {
+				window.location.href = 'http://itunes.apple.com/lb/app/truecaller-caller-id-number/id448142450?mt=8';
+			}
+			else {
+				alert("You are probably using non-mobile platform. Please use website for now.");
+			}
+		});
+	</script>
 </body>
-
 </html>
