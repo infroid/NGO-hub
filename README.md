@@ -4,10 +4,9 @@ This is a simple app landing page for NGO-Hub (https://ngo-hub.com)
 
 ## Purpose
 
-+ Link for Web App
-+ Link for Android App
-+ Link for iOS App
-+ Static pages included
++ Static pages
++ Links: Web App, Android App, iOS App
++ Dynamic stats
 
 ## Suggestions (Please)
 + Reach via Issues (GitHub)
