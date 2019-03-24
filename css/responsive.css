@@ -194,10 +194,7 @@
         margin-bottom: 50px;
     }
 	
-	.logo {
-	height: 20px;
-	width:120px;
-}
+
     .services-text h2 {
         font-size: 30px;
         margin-bottom: 30px;
@@ -209,10 +206,26 @@
     .map-area {
         margin-top: 100px;
     }
+	.animated {
+  -webkit-animation-duration: 0s;
+  animation-duration: 0s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
     .header_area .navbar {
         padding: 20px 0 0 0;
         height: 60px;
     }
+	.header_area {
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    top: 0;
+    padding: 0 25px;
+    height: 80px;
+	background-color:#ff4c8b;
+}
     #selene-navbar {
         padding: 15px;
         border-radius: 3px;
@@ -241,6 +254,9 @@
     .welcome-mobile-device img:first-child {
         margin-right: 15px;
     }
+	.welcome-bg-shape{
+		display:none;
+	}
     .welcome-content h2,
     .about-app-content h2,
     .app-faq-content h2,
@@ -377,10 +393,7 @@
     .aboutUs-headline h2 {
         font-size: 30px;
     }
-	.logo {
-	height: 25px;
-	width:150px;
-}
+
     .app-download-area {
         display: -webkit-box;
         display: -ms-flexbox;
