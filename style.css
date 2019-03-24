@@ -355,6 +355,11 @@ p {
     font-family: 'Futura LT';
 }
 
+.logo {
+	height: 30px;
+	width:180px;
+}
+
 .menu_area .navbar-brand:hover,
 .menu_area .navbar-brand:focus {
     color: #fff;
@@ -668,6 +673,7 @@ p {
 .single-app-feature-icon {
     width: 100px;
     height: 100px;
+	padding:10px;
     background-color: #fff;
     border-radius: 10px;
     margin-right: 20px;
@@ -947,10 +953,10 @@ span.accor-open {
 
 .single-map-pin:first-child {
     top: 48%;
-    left: 15%;
+    left: 67.5%;
 }
 
-.single-map-pin:nth-child(2) {
+/*.single-map-pin:nth-child(2) {
     top: 48%;
     left: 50%;
 }
@@ -963,7 +969,7 @@ span.accor-open {
 .single-map-pin:last-child {
     top: 80%;
     left: 80%;
-}
+}*/
 
 /* --------------------------
 :: 6.0 Cool Facts Area CSS
