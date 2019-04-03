@@ -47,6 +47,10 @@
 	.footer-area {
         padding: 50px 0;
     }
+	 .welcome-content h2 {
+        margin-top:-100px;
+    }
+	
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
